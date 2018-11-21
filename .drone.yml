@@ -38,8 +38,8 @@ pipeline:
       status: [ success, failure ]
 
 services:
-  # elasticsearch:
-  #   image: elasticsearch:5.6.13
+  elasticsearch:
+     image: elasticsearch:5.6.13
 
   redis:
     image: redis:latest
